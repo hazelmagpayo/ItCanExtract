@@ -62,7 +62,7 @@ This project uses a few required Python libraries. These are listed in the `requ
 2.1. Set Tesseract-OCR install location's destination folder to: 
 	"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
-<p>
+<p align="center">
 <img src="images/set_tesseract_install_location.png" width="400">
 </p>
 
@@ -84,7 +84,7 @@ python itcanextract.py
 
 Then enter the image filename (e.g. image.png).
 
-<p>
+<p align="center">
 <img src="images/usage_option2.png" width="400">
 </p>
 
@@ -97,7 +97,11 @@ Then enter the image filename (e.g. image.png).
 
 ## Execution Preview
 
-[View Execution Video](resources/itcanextract_usage_mp4_preview.mp4)
+<p align="center">
+  <a href="resources/execution-preview.mp4">
+    <img src="resources/preview.png" width="700">
+  </a>
+</p>
 
 ---
 
