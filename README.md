@@ -29,6 +29,29 @@ ItCanExtract is a beginner-friendly Win64 offline OCR tool that extracts text fr
 
 ---
 
+## Python Dependencies Explained
+
+This project uses a few required Python libraries. These are listed in the `requirements.txt` file.
+
+### What is `requirements.txt`?
+
+`requirements.txt` is a standard file used in Python projects to list all required libraries needed for the tool to run properly.
+
+---
+
+### What each dependency does:
+
+* **pytesseract**
+  A Python wrapper that allows this tool to communicate with the Tesseract OCR engine.
+
+* **opencv-python**
+  Used for image processing (loading images, converting formats, improving OCR accuracy).
+
+* **Pillow**
+  A lightweight image library used for handling and preparing image data.
+
+---
+
 ## Installation
 
 1. Install Python 
@@ -38,7 +61,8 @@ ItCanExtract is a beginner-friendly Win64 offline OCR tool that extracts text fr
 	
 2.1. Set Tesseract-OCR install location's destination folder to: 
 	"C:\Program Files\Tesseract-OCR\tesseract.exe"
-	![Set PATH](images/set_tesseract_install_location.png)
+	
+	<img src="images/set_tesseract_install_location.png" width="500">
 
 ---
 
@@ -56,11 +80,19 @@ Option 2: Run itcanextract.py script in the cmd using the command:
 python itcanextract.py
 
 Then enter the image filename (e.g. image.png).
-![Usage](images/usage_option2.png)
+<img src="images/usage_option2.png" width="400">
 
 
 ---Extracted Output---
 ![Usage](images/image2_extracted_output.png)
+
+---
+
+## Execution Preview
+
+<a href="resources/itcanextract_usage_mp4_preview.mp4">
+  <img src="resources/itcanextract_usage_img_preview.png" width="700">
+</a>
 
 ---
 
@@ -73,14 +105,6 @@ While efforts have been made to ensure reliable functionality, OCR results may v
 This software is provided for educational and productivity purposes only. The author makes no guarantees regarding accuracy, completeness, or fitness for a particular purpose, and assumes no liability for any direct or indirect consequences arising from its use.
 
 Users are responsible for ensuring that their use of this tool complies with applicable laws, regulations, and organizational policies.
-
-
----
-
-## Credits
-
-* Tesseract OCR
-* OpenCV
 
 ---
 
