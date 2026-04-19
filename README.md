@@ -88,9 +88,8 @@ Then enter the image filename (e.g. image.png).
 <img src="images/usage_option2.png" width="400">
 </p>
 
-
-
 ---Extracted Output---
+
 ![Usage](images/image2_extracted_output.png)
 
 ---
@@ -98,8 +97,8 @@ Then enter the image filename (e.g. image.png).
 ## Execution Preview
 
 <p align="center">
-  <a href="resources/execution-preview.mp4">
-    <img src="resources/preview.png" width="700">
+  <a href="resources/itcanextract_mp4_preview_usage.mp4">
+    <img src="resources/itcanextract_usage_img_preview.png" width="800">
   </a>
 </p>
 
