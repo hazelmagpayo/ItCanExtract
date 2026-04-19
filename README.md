@@ -97,7 +97,7 @@ Then enter the image filename (e.g. image.png).
 ## Execution Preview
 
 <p align="center">
-  <a href="resources/itcanextract_mp4_preview_usage.mp4">
+  <a href="resources/itcanextract_mp4_execution_preview.mp4">
     <img src="resources/itcanextract_usage_img_preview.png" width="800">
   </a>
 </p>
