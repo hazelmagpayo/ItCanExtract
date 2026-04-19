@@ -42,13 +42,13 @@ This project uses a few required Python libraries. These are listed in the `requ
 ### What each dependency does:
 
 * **pytesseract**
-  A Python wrapper that allows this tool to communicate with the Tesseract OCR engine.
+  - A Python wrapper that allows this tool to communicate with the Tesseract OCR engine.
 
 * **opencv-python**
-  Used for image processing (loading images, converting formats, improving OCR accuracy).
+  - Used for image processing (loading images, converting formats, improving OCR accuracy).
 
 * **Pillow**
-  A lightweight image library used for handling and preparing image data.
+  - A lightweight image library used for handling and preparing image data.
 
 ---
 
@@ -61,8 +61,11 @@ This project uses a few required Python libraries. These are listed in the `requ
 	
 2.1. Set Tesseract-OCR install location's destination folder to: 
 	"C:\Program Files\Tesseract-OCR\tesseract.exe"
-	
-	<img src="images/set_tesseract_install_location.png" width="500">
+
+<p>
+<img src="images/set_tesseract_install_location.png" width="400">
+</p>
+
 
 ---
 
@@ -80,7 +83,11 @@ Option 2: Run itcanextract.py script in the cmd using the command:
 python itcanextract.py
 
 Then enter the image filename (e.g. image.png).
+
+<p>
 <img src="images/usage_option2.png" width="400">
+</p>
+
 
 
 ---Extracted Output---
@@ -90,9 +97,7 @@ Then enter the image filename (e.g. image.png).
 
 ## Execution Preview
 
-<a href="resources/itcanextract_usage_mp4_preview.mp4">
-  <img src="resources/itcanextract_usage_img_preview.png" width="700">
-</a>
+[View Execution Video](resources/itcanextract_usage_mp4_preview.mp4)
 
 ---
 
